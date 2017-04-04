@@ -1,0 +1,814 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ali",
+				"align-items"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"mdl-ic",
+				"mdl-button--icon"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"sea",
+				"search-tires-map"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"fle",
+				"flex"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"spa",
+				"space-around"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"al",
+				"align-items"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"tr",
+				"transform"
+			],
+			[
+				"trn",
+				"transition"
+			],
+			[
+				"flex",
+				"flex-wrap"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"tra",
+				"translateX()"
+			],
+			[
+				"clas",
+				"classList"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"tran",
+				"transition"
+			],
+			[
+				"fav",
+				"fav-card"
+			],
+			[
+				"inli",
+				"inline-flex"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"mdl-b",
+				"mdl-button--colored"
+			],
+			[
+				"mat",
+				"material-icons"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"i",
+				"img\tTag"
+			],
+			[
+				"formatted",
+				"formattedRole"
+			],
+			[
+				"padd",
+				"padding-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"over",
+				"overflow-x"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"magin",
+				"margin-bottom"
+			],
+			[
+				"loc",
+				"localStorage"
+			],
+			[
+				"mdl-textfield--",
+				"mdl-textfield--floating-label"
+			],
+			[
+				"mdl-tex",
+				"mdl-textfield__label"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"A",
+				"auto"
+			],
+			[
+				"m",
+				"multiplyBy3"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"transl",
+				"translateY()"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"borrra",
+				"border-radius"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"paf",
+				"padding-left"
+			],
+			[
+				"bo",
+				"border-radius"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"menu",
+				"menu-tile"
+			],
+			[
+				"teal",
+				"text-align"
+			],
+			[
+				"colla",
+				"collapse"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"r",
+				"rgba()"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"re",
+				"red"
+			],
+			[
+				"sec",
+				"sectext"
+			],
+			[
+				"fnt",
+				"font-size"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"texal",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"au",
+				"Autoprefix CSS"
+			],
+			[
+				"pyth",
+				"Set Syntax: Python"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			],
+			[
+				"prefi",
+				"Autoprefix CSS"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"package control: remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"color",
+				"Preferences: GutterColor Settings – Default"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"prett",
+				"HTMLPrettify: Set Keyboard Shortcuts"
+			],
+			[
+				"package ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 412.0
+	},
+	"console":
+	{
+		"height": 686.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/alex/web/dopcine",
+		"/Users/alex/web/dopcine/mdl"
+	],
+	"file_history":
+	[
+		"/Users/alex/web/dopcine/style.css",
+		"/Users/alex/web/dopcine/mdl/material.css",
+		"/Users/alex/web/dopcine/index.html",
+		"/Users/alex/web/dopcine/material-components.json",
+		"/Users/alex/Downloads/mdl (3)/material.css",
+		"/Users/alex/web/salespace/index.html",
+		"/Users/alex/web/salespace/near-me.html",
+		"/Users/alex/web/salespace/search-pizza-list.html",
+		"/Users/alex/web/salespace/search-pizza-map.html",
+		"/Users/alex/web/salespace/location.js",
+		"/Users/alex/web/salespace/search-tires-map.html",
+		"/Users/alex/web/salespace/search-tires-list.html",
+		"/Users/alex/web/salespace/style.css",
+		"/Users/alex/web/salespace/fill-details.html",
+		"/Volumes/Storage2/Web/fullstack-course4/examples/Lecture63/before/css/bootstrap.css",
+		"/Users/alex/web/salespace/item-location.js",
+		"/Users/alex/web/salespace/location1.js",
+		"/Users/alex/web/salespace/my-profile.html",
+		"/Users/alex/web/salespace/fav-grid.html",
+		"/Users/alex/web/salespace/fav.html",
+		"/Users/alex/web/salespace/settings.html",
+		"/Users/alex/web/salespace/test-location.html",
+		"/Users/alex/Downloads/Group_1 (30) (1).svg",
+		"/Users/alex/web/salespace/map.html",
+		"/Users/alex/web/salespace/profile.html",
+		"/Users/alex/web/salespace/camera.html",
+		"/Users/alex/web/bzk-land/untitled.html",
+		"/Users/alex/web/salespace/material.min.css",
+		"/Users/alex/Desktop/Dopcine.xml",
+		"/Users/alex/web/udacity/frontend-nanodegree-resume/js/helper.js",
+		"/Users/alex/web/udacity/frontend-nanodegree-resume/index.html",
+		"/Users/alex/web/udacity/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/Users/alex/web/salespace/manifest.json",
+		"/Users/alex/web/salespace/material.min (1).css",
+		"/Users/alex/web/salespace/try.html",
+		"/Users/alex/web/udacity/frontend-nanodegree-resume/js/jQuery.js",
+		"/Users/alex/Desktop/Salespace",
+		"/Users/alex/web/udacity/portfolio/css/style.css",
+		"/Users/alex/web/udacity/portfolio/bootstrap-prestructure.html",
+		"/Users/alex/web/index.html",
+		"/Users/alex/web/page2.html",
+		"/Users/alex/web/salespace/camera.js",
+		"/Users/alex/web/multicora/index.html",
+		"/Users/alex/Desktop/mc-logo.svg",
+		"/Users/alex/web/dribbble/dribbble.svg",
+		"/Users/alex/Desktop/logo-dark.svg",
+		"/Users/alex/web/dribbble/Debut2.svg",
+		"/Users/alex/Downloads/Debut2.svg",
+		"/Users/alex/Downloads/social-icons 2.svg",
+		"/Users/alex/web/multicora/css/styles.css",
+		"/Users/alex/Downloads/logo-dark.svg",
+		"/Users/alex/Downloads/shapes logo.svg",
+		"/Users/alex/Downloads/SVG-Download-L6.zip",
+		"/Users/alex/Downloads/SVG-Download-L7/instagram-gradient.svg",
+		"/Users/alex/Downloads/SVG-Download-L7/experiment.svg",
+		"/Users/alex/Desktop/dribbble-icon.svg",
+		"/Users/alex/Downloads/social-icons.svg",
+		"/Users/alex/web/videostock/index.html",
+		"/Users/alex/web/salespace/test.html",
+		"/Users/alex/web/salespace/geolocation.js",
+		"/Users/alex/web/salespace/reset.css",
+		"/Users/alex/web/messkil/index.html",
+		"/Users/alex/web/messkil/styles.css",
+		"/Users/alex/web/fullstack-course4/examples/Lecture47/js/script.js",
+		"/Users/alex/web/fullstack-course4/examples/Lecture46/js/script.js",
+		"/Users/alex/web/fullstack-course4/examples/Lecture45/js/script.js",
+		"/Users/alex/web/fullstack-course4/examples/Lecture44/js/script.js",
+		"/Users/alex/web/fullstack-course4/examples/Lecture43/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture43/js/script.js",
+		"/Users/alex/web/fullstack-course4/examples/Lecture42/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture42/js/script.js",
+		"/Users/alex/web/fullstack-course4/examples/Lecture41/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture41/js/script.js",
+		"/Users/alex/Desktop/y-combinator",
+		"/Users/alex/Desktop/Database",
+		"/Users/alex/web/impress.js/index.html",
+		"/Users/alex/web/bws/index.html",
+		"/Users/alex/web/impress.js/css/impress-demo.css",
+		"/Users/alex/web/impress.js/js/impress.js",
+		"/Users/alex/web/messkil/2/index.html",
+		"/Users/alex/web/multicora/js/script.js",
+		"/Users/alex/web/multicora/js/jquery-3.1.1.js",
+		"/Users/alex/web/multicora/images/logotype.svg",
+		"/Users/alex/web/multicora/images/logo-dark.svg",
+		"/Users/alex/web/multicora/images/logo-black.svg",
+		"/Users/alex/web/multicora/tech-and-tools.html",
+		"/Users/alex/web/multicora/company.html",
+		"/Users/alex/web/multicora/logo-black.svg",
+		"/Users/alex/web/multicora/index2.html",
+		"/Users/alex/web/multicora2/index.html",
+		"/Users/alex/web/styles.css",
+		"/Users/alex/Desktop/style.css",
+		"/Users/alex/Desktop/index.html",
+		"/Users/alex/web/bzk/conversation.html",
+		"/Users/alex/web/salespace/SaleSpace questions",
+		"/Users/alex/web/bzk/README.md",
+		"/Users/alex/Desktop/conversation.html",
+		"/Users/alex/Desktop/videos.html",
+		"/Users/alex/web/multicora/projects.html",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/User/GutterColor.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/Gutter Color/GutterColor.sublime-settings",
+		"/Users/alex/web/fullstack-course4/examples/Lecture40/js/script.js",
+		"/Users/alex/web/fullstack-course4/examples/Lecture40/index.html",
+		"/Users/alex/Lecture40",
+		"/Users/alex/web/coursera-learning/module3-solution/index.html",
+		"/Users/alex/web/coursera-learning/module3-solution/css/styles.css",
+		"/Users/alex/Downloads/SALES CAREER PROGRESSION.pdf",
+		"/Users/alex/web/coursera-learning/module2-solution/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture25/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture39/before/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture39/before/menu-categories.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture39/before/single-category.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture38/before/css/styles.css",
+		"/Users/alex/web/fullstack-course4/examples/Lecture38/before/sigle-category.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture38/before/menu-categories.html",
+		"/Users/alex/web/multicora/index4.html",
+		"/Users/alex/web/multicora/css/styles2.css",
+		"/Users/alex/web/multicora/index3.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture37/before/css/styles.css",
+		"/Users/alex/web/fullstack-course4/examples/Lecture37/before/menu-categories.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture37/before/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture36/before/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture36/before/css/styles.css",
+		"/Users/alex/web/fullstack-course4/examples/Lecture35/before/css/styles.css",
+		"/Users/alex/web/fullstack-course4/examples/Lecture35/before/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture34/before/index.html",
+		"/Users/alex/web/fullstack-course4/examples/Lecture34/before/css/styles.css",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mdl-tabl",
+			"data table",
+			"table",
+			"th",
+			"icon",
+			"bottom",
+			"justify-content: center",
+			"@media",
+			" class=\"mdl-cell--hide-phone\"",
+			"phone",
+			"7</",
+			"tablet",
+			"phone",
+			"mobile",
+			"visibili",
+			"hidden",
+			"center",
+			"t-ce",
+			"text center",
+			".center",
+			"title",
+			"16px",
+			"text",
+			"typogr",
+			"active",
+			"2017</td>",
+			" mdl-button--colored",
+			"end of ic",
+			"фут",
+			"card-nam",
+			"женск",
+			"color: blue;",
+			"carf-nam",
+			"маш",
+			"me",
+			"footer",
+			"ftr",
+			"footer",
+			"left",
+			"<label class=\"star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect\" for=\"icon-toggle3\">\n                <input onclick=\"myfunc('fav-card3')\" type=\"checkbox\" id=\"icon-toggle3\" class=\"mdl-icon-toggle__input\" checked>\n                <i class=\"mdl-icon-toggle__label material-icons\">star</i>\n              </label>",
+			"normal",
+			"mar-left-49",
+			"mdl-g",
+			" mdl-grid",
+			"margin: au",
+			"Winter car tires",
+			"Input is not a number!",
+			"km",
+			"awes",
+			"Discount",
+			"Kiev",
+			"Петрусенко",
+			"Dmitry Petrusenko",
+			".5s",
+			"tires",
+			"star",
+			"pizz",
+			"card-names",
+			"expand\"></div>\n</div>",
+			"lower-right",
+			"mdl-layout--",
+			"mdl-layout-h",
+			"mdl-layout-hea",
+			"cate",
+			"back",
+			"arrow",
+			"home",
+			"<div class=\"demo-card",
+			"min-hei",
+			"card",
+			"my sett",
+			"26",
+			"#",
+			"back",
+			"1x",
+			"1px",
+			"<i cla",
+			"h1",
+			"decora",
+			"icon",
+			"drawer",
+			"fill=\"rgb(51,51,51)",
+			"fill",
+			"stroke",
+			"#",
+			"color",
+			"w3-opacity w3-hover-opacity-off",
+			"w3-hover-opacity-off",
+			"w3-opacity",
+			"Download",
+			"App",
+			"Download",
+			"app",
+			"/images",
+			"w3-gr",
+			"style=\"min-width:500px\"",
+			"download",
+			"/images",
+			"image",
+			"src=\"",
+			"favor",
+			"api",
+			"styl",
+			"<!-- ICONS AND CARD DETAILS -->\n<div class=\"card-icons\">\n  <i class=\"material-icons\">comment</i>&nbsp &nbsp <i class=\"material-icons\">favorite</i> &nbsp &nbsp<i class=\"material-icons\">share</i>\n  <label class=\"star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect\" for=\"icon-toggle-1\">\n    <input type=\"checkbox\" id=\"icon-toggle-1\" class=\"mdl-icon-toggle__input\" checked>\n    <i class=\"mdl-icon-toggle__label material-icons\">star</i>\n  </label>\n</div>\n<div class=\"card-details\">\n  <div>Discount: -25%</div>\n  <div>New price: $150</div>\n  <div>Expires: in 2 days</div>\n</div><!-- END OF ICONS AND CARD DETAILS -->",
+			"icon-toggle-1",
+			"mdl-icon-toggle__label",
+			"share",
+			"place",
+			"<a href=\"map.html\"><i style=\"margin: 0; padding: 0; font-size: 1.8rem; vertical-align: middle;\" class=\"material-icons\">place</i></a>",
+			"place",
+			"h4",
+			"face",
+			"badge",
+			"#map",
+			"<i style=\"margin: 0; padding: 0; font-size: 1.8rem; vertical-align: middle;\" class=\"material-icons\">place</i>",
+			"birh",
+			"age",
+			"input",
+			"keyboard_arrow_right",
+			"right",
+			"foo",
+			"star",
+			"home",
+			"mdl-layout__header",
+			"share",
+			"float",
+			"card",
+			"list"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.314177924077,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 195.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 124.0
+	},
+	"pinned_build_system": "",
+	"project": "Dopcine.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/web/sublime-sets/salespace.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 218.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
