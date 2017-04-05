@@ -410,9 +410,9 @@
 	],
 	"file_history":
 	[
-		"/Users/alex/web/dopcine/style.css",
 		"/Users/alex/web/dopcine/mdl/material.css",
 		"/Users/alex/web/dopcine/index.html",
+		"/Users/alex/web/dopcine/style.css",
 		"/Users/alex/web/dopcine/material-components.json",
 		"/Users/alex/Downloads/mdl (3)/material.css",
 		"/Users/alex/web/salespace/index.html",
@@ -555,6 +555,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"phone",
+			"center",
 			"mdl-tabl",
 			"data table",
 			"table",
@@ -680,9 +682,7 @@
 			"home",
 			"mdl-layout__header",
 			"share",
-			"float",
-			"card",
-			"list"
+			"float"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -738,7 +738,7 @@
 		"cols":
 		[
 			0.0,
-			0.314177924077,
+			0.509506455199,
 			1.0
 		],
 		"rows":

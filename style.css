@@ -6,3 +6,17 @@ th .mdl-icon-toggle {
     display: flex;
     align-items: flex-end;
 }
+
+.overview-card.mdl-card {
+  width: 100%;
+  height: auto;
+}
+.overview-card > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../assets/demos/dog.png') bottom right 15% no-repeat #0D47A1;
+}
+
+.mdl-card__title-text {
+	align-self: flex-start;
+}
