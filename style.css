@@ -8,15 +8,35 @@ th .mdl-icon-toggle {
 }
 
 .overview-card.mdl-card {
-  width: 100%;
-  height: auto;
-}
-.overview-card > .mdl-card__title {
-  color: #fff;
-  background:
-    url('../assets/demos/dog.png') bottom right 15% no-repeat #0D47A1;
+    /*width: 100%;*/
+    /*height: 365px;*/
 }
 
+.overview-card > .mdl-card__title {
+	color: #fff;
+	background: url('') bottom right 15% no-repeat #1976D2;
+}
+
+#tasks .mdl-card__title {
+	background: #0D47A1;
+}
 .mdl-card__title-text {
-	align-self: flex-start;
+    align-self: flex-start;
+}
+
+.tasks-table {
+    width: 100%;
+    /*margin: -17px;*/
+}
+
+#tasks {
+	padding: 0;
+	/*height: auto;*/
+}
+
+.cards-container {
+	/*margin-bottom: 16px;*/
+}
+.table-head{
+/*background: #80ccff;*/
 }
