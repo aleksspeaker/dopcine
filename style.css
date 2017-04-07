@@ -5,6 +5,7 @@ th .mdl-icon-toggle {
 .date-icon-table-heading {
     display: flex;
     align-items: flex-end;
+    justify-content: flex-end;
 }
 
 .overview-card.mdl-card {
