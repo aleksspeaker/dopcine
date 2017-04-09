@@ -4,8 +4,36 @@
 		"selected_items":
 		[
 			[
+				"s",
+				"size\tAttr"
+			],
+			[
+				"mdl-js",
+				"mdl-js-ripple-effect"
+			],
+			[
+				"c",
+				"cursor"
+			],
+			[
+				"mdl-cell",
+				"mdl-cell-12-col"
+			],
+			[
+				"al",
+				"align-self"
+			],
+			[
+				"f",
+				"flex-end"
+			],
+			[
+				"fl",
+				"flex-start"
+			],
+			[
 				"ali",
-				"align-items"
+				"align-self"
 			],
 			[
 				"sty",
@@ -46,10 +74,6 @@
 			[
 				"bor",
 				"border"
-			],
-			[
-				"al",
-				"align-items"
 			],
 			[
 				"margin",
@@ -118,10 +142,6 @@
 			[
 				"mat",
 				"material-icons"
-			],
-			[
-				"s",
-				"style\tAttr"
 			],
 			[
 				"i",
@@ -303,6 +323,36 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/Users/alex/web/dopcine/content.html",
+			"settings":
+			{
+				"buffer_size": 8198,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<!DOCTYPE html>\n  <head>\n    <!-- Material Design Lite -->\n    <script src=\"https://code.getmdl.io/1.3.0/material.min.js\"></script>\n    <script src=\"script.js\"></script>\n    <link rel=\"stylesheet\" href=\"https://code.getmdl.io/1.3.0/material.blue-indigo.min.css\" />\n    <title>Dopcine Admin Panel</title>\n    <meta charset=\"utf-8\" name='viewport', content='width=device-width, initial-scale=1'>\n    <!-- Material Design icon font -->\n    <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/icon?family=Material+Icons\">\n    <link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">\n  </head>\n  <body>\n    <!-- The drawer is always open in large screens. The header is always shown,\n      even in small screens. -->\n    <div class=\"mdl-layout mdl-js-layout mdl-layout--fixed-drawer\n                mdl-layout--fixed-header\">\n      <header class=\"mdl-layout__header\">\n        <div class=\"mdl-layout__header-row\">\n        <span class=\"mdl-layout-title\">Moderation</span>\n          <div class=\"mdl-layout-spacer\"></div>\n          <div class=\"mdl-textfield mdl-js-textfield mdl-textfield--expandable\n                      mdl-textfield--floating-label mdl-textfield--align-right\">\n            <label class=\"mdl-button mdl-js-button mdl-button--icon\"\n                   for=\"fixed-header-drawer-exp\">\n              <i class=\"material-icons\">search</i>\n            </label>\n            <div class=\"mdl-textfield__expandable-holder\">\n              <input class=\"mdl-textfield__input\" type=\"text\" name=\"sample\"\n                     id=\"fixed-header-drawer-exp\">\n            </div>\n          </div>\n        </div>\n      </header>\n      <div class=\"mdl-layout__drawer\">\n        <span style=\"border-bottom: 1px solid lightgrey;\" class=\"mdl-layout-title\">Dopcine Admin</span>\n        <nav class=\"mdl-navigation\">\n          <a class=\"mdl-navigation__link\" href=\"index.html\">Overview</a>\n          <a class=\"mdl-navigation__link\" href=\"orders.html\">Orders</a>\n          <a class=\"mdl-navigation__link\" href=\"content.html\">Content</a>\n          <a class=\"mdl-navigation__link  mdl-navigation__link--current\" href=\"moderation.html\">Moderation</a>\n          <a class=\"mdl-navigation__link\" href=\"messages.html\">Messages</a>\n          <a class=\"mdl-navigation__link\" href=\"users.html\">Users</a>\n          <a class=\"mdl-navigation__link\" href=\"report.html\">Report</a>\n          <a class=\"mdl-navigation__link\" href=\"settings.html\">Settings</a>\n        </nav>\n      </div>\n      <main class=\"mdl-layout__content\">\n        <div class=\"page-content\"><!-- Your content goes here --></div>\n\n\n\n\n<div id=\"div1\" ondrop=\"drop(event)\" ondragover=\"allowDrop(event)\"></div>\n<br>\n<div id=\"drag1\"  draggable=\"true\" ondragstart=\"drag(event)\" style=\"width:336px; height:69px; background: purple; cursor: pointer;\"></div>\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n<div class=\"mdl-grid\">\n  <div class=\"mdl-cell mdl-cell--8-col\">\n    <table style=\"width: 100%;\" class=\"mdl-data-table mdl-js-data-table mdl-shadow--2dp \">\n      <thead>\n        <tr>\n          <th class=\"mdl-data-table__cell--non-numeric mdl-data-table__header--sorted-descending\">Order</th>\n          <th class=\"date-icon-table-heading\">Date \n            <!-- Icon button -->\n            <button class=\"mdl-button mdl-js-button mdl-button--icon\">\n            <i class=\"material-icons mdl-icon-toggle\">date_range</i>\n            </button>\n          </th>\n          <th class=\"mdl-cell--hide-phone\">Customer</th>\n          <th class=\"mdl-cell--hide-phone\">items</th>\n          <th>Total</th>\n        </tr>\n      </thead>\n      <tbody>\n        <tr>\n          <td class=\"mdl-data-table__cell--non-numeric\">#1001</td>\n          <td>24/07/2017</td>\n          <td class=\"mdl-cell--hide-phone\">Maria Mary</td>\n          <td  class=\"mdl-cell--hide-phone\">1</td>\n          <td>$50</td>\n        </tr>\n        <tr>\n          <td class=\"mdl-data-table__cell--non-numeric\">#1002</td>\n          <td>23/07/2017</td>\n          <td class=\"mdl-cell--hide-phone\">Peter Gabriel</td>\n          <td class=\"mdl-cell--hide-phone\">5</td>\n          <td>$1050</td>\n        </tr>\n        <tr>\n          <td class=\"mdl-data-table__cell--non-numeric\">#1003</td>\n          <td>22/07/2017</td>\n          <td class=\"mdl-cell--hide-phone\">James Hetfield</td>\n          <td class=\"mdl-cell--hide-phone\">3</td>\n          <td>$120</td>\n        </tr>\n        <tr>\n          <td class=\"mdl-data-table__cell--non-numeric\">#1004</td>\n          <td>24/07/2017</td>\n          <td class=\"mdl-cell--hide-phone\">Maria Mary</td>\n          <td class=\"mdl-cell--hide-phone\">1</td>\n          <td>$50</td>\n        </tr>\n        <tr>\n          <td class=\"mdl-data-table__cell--non-numeric\">#1005</td>\n          <td>23/07/2017</td>\n          <td class=\"mdl-cell--hide-phone\">Peter Gabriel</td>\n          <td class=\"mdl-cell--hide-phone\">5</td>\n          <td>$1050</td>\n        </tr>\n        <tr>\n          <td class=\"mdl-data-table__cell--non-numeric\">#1006</td>\n          <td>22/07/2017</td>\n          <td class=\"mdl-cell--hide-phone\">James Hetfield</td>\n          <td class=\"mdl-cell--hide-phone\">3</td>\n          <td>$120</td>\n        </tr>\n      </tbody>\n    </table>\n  </div>\n</div>\n\n\n      </main>\n    </div>\n  </body>\n</html>",
+			"file": "/Users/alex/web/dopcine/moderation.html",
+			"file_size": 5237,
+			"file_write_time": 131361911390000000,
+			"settings":
+			{
+				"buffer_size": 5184,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alex/web/dopcine/style.scss",
+			"settings":
+			{
+				"buffer_size": 792,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -410,9 +460,13 @@
 	],
 	"file_history":
 	[
-		"/Users/alex/web/dopcine/mdl/material.css",
+		"/Users/alex/web/dopcine/script.js",
+		"/Users/alex/web/dopcine/orders.html",
 		"/Users/alex/web/dopcine/index.html",
 		"/Users/alex/web/dopcine/style.css",
+		"/Users/alex/web/dopcine/styles.scss",
+		"/Users/alex/web/dopcine/untitled.html",
+		"/Users/alex/web/dopcine/mdl/material.css",
 		"/Users/alex/web/dopcine/material-components.json",
 		"/Users/alex/Downloads/mdl (3)/material.css",
 		"/Users/alex/web/salespace/index.html",
@@ -533,11 +587,7 @@
 		"/Users/alex/web/fullstack-course4/examples/Lecture37/before/index.html",
 		"/Users/alex/web/fullstack-course4/examples/Lecture36/before/index.html",
 		"/Users/alex/web/fullstack-course4/examples/Lecture36/before/css/styles.css",
-		"/Users/alex/web/fullstack-course4/examples/Lecture35/before/css/styles.css",
-		"/Users/alex/web/fullstack-course4/examples/Lecture35/before/index.html",
-		"/Users/alex/web/fullstack-course4/examples/Lecture34/before/index.html",
-		"/Users/alex/web/fullstack-course4/examples/Lecture34/before/css/styles.css",
-		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc"
+		"/Users/alex/web/fullstack-course4/examples/Lecture35/before/css/styles.css"
 	],
 	"find":
 	{
@@ -555,6 +605,29 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"overvi",
+			" mdl-button--icon",
+			"filled</i>",
+			"phone\">9/",
+			"date_range",
+			"<i class=\"material-icons\">play_circle_filled</i>",
+			"/2017",
+			"#100",
+			"#",
+			"orders",
+			"cel",
+			"grid",
+			"<div class=\"cards-container",
+			"<div class=\"cards-",
+			"overview-card",
+			"mdl-cell mdl-cell-",
+			"mdl-cell-1-col",
+			"<!-- REMOVED mdl-card--expand -->",
+			"grid",
+			"row",
+			"#tas",
+			"demo-card-square",
+			"/butt",
 			"phone",
 			"center",
 			"mdl-tabl",
@@ -659,30 +732,7 @@
 			"src=\"",
 			"favor",
 			"api",
-			"styl",
-			"<!-- ICONS AND CARD DETAILS -->\n<div class=\"card-icons\">\n  <i class=\"material-icons\">comment</i>&nbsp &nbsp <i class=\"material-icons\">favorite</i> &nbsp &nbsp<i class=\"material-icons\">share</i>\n  <label class=\"star-label mdl-icon-toggle mdl-js-icon-toggle mdl-js-ripple-effect\" for=\"icon-toggle-1\">\n    <input type=\"checkbox\" id=\"icon-toggle-1\" class=\"mdl-icon-toggle__input\" checked>\n    <i class=\"mdl-icon-toggle__label material-icons\">star</i>\n  </label>\n</div>\n<div class=\"card-details\">\n  <div>Discount: -25%</div>\n  <div>New price: $150</div>\n  <div>Expires: in 2 days</div>\n</div><!-- END OF ICONS AND CARD DETAILS -->",
-			"icon-toggle-1",
-			"mdl-icon-toggle__label",
-			"share",
-			"place",
-			"<a href=\"map.html\"><i style=\"margin: 0; padding: 0; font-size: 1.8rem; vertical-align: middle;\" class=\"material-icons\">place</i></a>",
-			"place",
-			"h4",
-			"face",
-			"badge",
-			"#map",
-			"<i style=\"margin: 0; padding: 0; font-size: 1.8rem; vertical-align: middle;\" class=\"material-icons\">place</i>",
-			"birh",
-			"age",
-			"input",
-			"keyboard_arrow_right",
-			"right",
-			"foo",
-			"star",
-			"home",
-			"mdl-layout__header",
-			"share",
-			"float"
+			"styl"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -700,13 +750,163 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/Users/alex/web/dopcine/content.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8198,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3477,
+								3477
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Slush & Poppies.tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 575.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/alex/web/dopcine/moderation.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5184,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2570,
+								2570
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Slush & Poppies.tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 502.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "/Users/alex/web/dopcine/style.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 792,
+						"regions":
+						{
+							"gutter_color_245":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#fff.png",
+								"regions":
+								[
+									[
+										245,
+										261
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_262":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1976D2.png",
+								"regions":
+								[
+									[
+										262,
+										321
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_355":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#1565C0.png",
+								"regions":
+								[
+									[
+										355,
+										377
+									]
+								],
+								"scope": "gutter_color"
+							},
+							"gutter_color_597":
+							{
+								"flags": 144,
+								"icon": "Cache/GutterColor/#80ccff.png",
+								"regions":
+								[
+									[
+										597,
+										623
+									]
+								],
+								"scope": "gutter_color"
+							}
+						},
+						"selection":
+						[
+							[
+								792,
+								792
+							]
+						],
+						"settings":
+						{
+							"color_scheme": "Packages/User/Color Highlighter/themes/Slush & Poppies.tmTheme",
+							"git_gutter_enabled": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 160.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -738,7 +938,7 @@
 		"cols":
 		[
 			0.0,
-			0.509506455199,
+			0.633735839385,
 			1.0
 		],
 		"rows":
@@ -798,14 +998,14 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
 	"show_minimap": false,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 218.0,
 	"status_bar_visible": true,
 	"template_settings":

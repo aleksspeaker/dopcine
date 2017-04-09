@@ -1,181 +1,161 @@
-/* line 1, style.scss */
 th .mdl-icon-toggle {
   height: 29px;
 }
 
-/* line 5, style.scss */
 .date-icon-table-heading {
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
 }
 
-/* line 12, style.scss */
-.overview-card.mdl-card {
-  /*width: 100%;*/
-  /*height: 365px;*/
-}
-/* line 16, style.scss */
-.overview-card > .mdl-card__title {
-  color: #fff;
-  background: url("") bottom right 15% no-repeat #1976d2;
+.overview-card {
+  &.mdl-card {
+    /*width: 100%;*/
+    /*height: 365px;*/
+  }
+  > .mdl-card__title {
+    color: #fff;
+    background: url('') bottom right 15% no-repeat #1976D2;
+  }
 }
 
-/* line 22, style.scss */
 #tasks .mdl-card__title {
   background: #1565C0;
 }
 
-/* line 26, style.scss */
 .mdl-card__title-text {
   align-self: flex-start;
 }
 
-/* line 30, style.scss */
 .tasks-table {
   width: 100%;
   /*margin: -17px;*/
 }
 
-/* line 35, style.scss */
 #tasks {
   padding: 0;
   /*height: auto;*/
 }
 
-/* line 40, style.scss */
 .cards-container {
   /*margin-bottom: 16px;*/
 }
 
-/* line 44, style.scss */
 .table-head {
   /*background: #80ccff;*/
 }
 
 /*CONTENT PAGE================================*/
-/* line 50, style.scss */
+
 #content-table {
   width: 100%;
 }
 
-/* line 54, style.scss */
 #category-form {
   width: 150px;
 }
 
-/* line 58, style.scss */
 .pub-checkbox {
   padding-top: 14px;
   width: 250px;
 }
 
-/* line 63, style.scss */
 .vid-sort-controls {
-  display: inline-flex;
-  margin-bottom: -12px;
-}
+    display: inline-flex;
+    margin-bottom: -12px;
+  }
+
 
 /*MODERATION PAGE=============================*/
-/* line 71, style.scss */
+
 #inbox, #inprog, #done {
-  height: 100vh;
-  padding: 10px;
-  border: 1px solid #f9f9f9;
-  background: #fafafa;
-  border-radius: 4px;
+    height: 100vh;
+    padding: 10px;
+    border: 1px solid #f9f9f9;
+    background: #fafafa;
+    border-radius: 4px;
 }
 
-/* line 81, style.scss */
-#inbox .moderation-card.mdl-card {
+#inbox {
+
+ .moderation-card.mdl-card {
   width: 100%;
   max-width: 350px;
   height: auto;
   background: white;
   margin-bottom: 8px;
 }
+}
 
-/* line 92, style.scss */
-#inprog .moderation-card.mdl-card {
+#inprog {
+
+ .moderation-card.mdl-card {
   width: 100%;
   max-width: 350px;
   height: auto;
   background: #FFF176;
   margin-bottom: 8px;
 }
+}
 
-/* line 103, style.scss */
-#done .moderation-card.mdl-card {
+#done {
+
+ .moderation-card.mdl-card {
   width: 100%;
   max-width: 350px;
   height: auto;
   background: #AED581;
   margin-bottom: 8px;
 }
-
-/* line 111, style.scss */
+}
 .moderation-card > .mdl-card__actions {
   border-color: rgba(255, 255, 255, 0.2);
 }
-
-/* line 114, style.scss */
 .moderation-card > .mdl-card__title {
   display: block;
-}
 
-/* line 118, style.scss */
+}
 .moderation-card > .mdl-card__title > h4 {
   margin-top: 0;
 }
-
-/* line 121, style.scss */
 .moderation-card > .mdl-card__actions {
   display: flex;
-  box-sizing: border-box;
+  box-sizing:border-box;
   align-items: center;
 }
 
-/* line 127, style.scss */
 .mdl-card__actions.mdl-card--border {
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(0,0,0,.2);
 }
 
-/* line 131, style.scss */
 .moderation-card > .mdl-card__actions > .material-icons {
   padding-right: 10px;
 }
 
-/* line 137, style.scss */
 .moderation-card > .mdl-card__title,
 .moderation-card > .mdl-card__actions,
 .moderation-card > .mdl-card__actions > .mdl-button {
-  color: rgba(0, 0, 0, 0.87);
+  color: rgba(0,0,0,.87);
 }
 
-/* line 141, style.scss */
 .mod-card-name {
   font-size: 1.6rem;
 }
-
-/* line 144, style.scss */
 mod-card-author {
   font-size: 1.3rem;
 }
 
 /*THIS CURSOR MAKE ITEMS APPEAR GRABBABLE*/
-/* line 149, style.scss */
 .grabbable {
-  cursor: move;
-  /* fallback if grab cursor is unsupported */
-  cursor: grab;
-  cursor: -moz-grab;
-  cursor: -webkit-grab;
+    cursor: move; /* fallback if grab cursor is unsupported */
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
 }
 
-/* (Optional) Apply a "closed-hand" cursor during drag operation. */
-/* line 157, style.scss */
-.grabbable:active {
-  cursor: grabbing;
-  cursor: -moz-grabbing;
-  cursor: -webkit-grabbing;
+ /* (Optional) Apply a "closed-hand" cursor during drag operation. */
+.grabbable:active { 
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
 }

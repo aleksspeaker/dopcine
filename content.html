@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<head>
+  <!-- Material Design Lite -->
+  <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css" />
+  <title>Dopcine Admin Panel</title>
+  <meta charset="utf-8" name='viewport' , content='width=device-width, initial-scale=1'>
+  <!-- Material Design icon font -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- The drawer is always open in large screens. The header is always shown,
+      even in small screens. -->
+  <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer
+                mdl-layout--fixed-header">
+    <header class="mdl-layout__header">
+      <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title">Content</span>
+        <div class="mdl-layout-spacer"></div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+                      mdl-textfield--floating-label mdl-textfield--align-right">
+          <label class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--icon" for="fixed-header-drawer-exp">
+            <i class="material-icons">search</i>
+          </label>
+          <div class="mdl-textfield__expandable-holder">
+            <input class="mdl-textfield__input" type="text" name="sample" id="fixed-header-drawer-exp">
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="mdl-layout__drawer">
+      <span style="border-bottom: 1px solid lightgrey;" class="mdl-layout-title">Dopcine Admin</span>
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="index.html">Overview</a>
+        <a class="mdl-navigation__link" href="orders.html">Orders</a>
+        <a class="mdl-navigation__link  mdl-navigation__link--current" href="content.html">Content</a>
+        <a class="mdl-navigation__link" href="moderation.html">Moderation</a>
+        <a class="mdl-navigation__link" href="messages.html">Messages</a>
+        <a class="mdl-navigation__link" href="users.html">Users</a>
+        <a class="mdl-navigation__link" href="report.html">Report</a>
+        <a class="mdl-navigation__link" href="settings.html">Settings</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+      <div class="page-content">
+        <!-- Your content goes here -->
+      </div>
+      <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+        <div class="mdl-tabs__tab-bar">
+          <a href="#videos-table" class="mdl-tabs__tab is-active">Videos</a>
+          <a href="#categories-table" class="mdl-tabs__tab">Categories</a>
+        </div>
+        <div class="mdl-tabs__panel is-active" id="videos-table">
+          <div class="mdl-grid">
+            <div class="vid-sort-controls mdl-cell mdl-cell--12-col">
+            <form id="category-form" action="#">
+              <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label getmdl-select getmdl-select__fullwidth">
+                <input class="mdl-textfield__input" type="text" id="sample1" value="" readonly tabIndex="-1" style="cursor: pointer;" size="25">
+                <label id="selCatLabel" for="sample1" class="mdl-textfield__label">Category</label>
+                <ul for="sample1" class="mdl-menu mdl-menu--bottom-left mdl-js-menu">
+                  <li onclick="document.getElementById('sample1').value =''; document.getElementById('selCatLabel').innerHTML ='Select category'" class="mdl-menu__item" class="mdl-menu__item">All</li>
+                  <li onclick="document.getElementById('sample1').value ='Animals'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Animals</li>
+                  <li onclick="document.getElementById('sample1').value ='Cities'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Cities</li>
+                  <li onclick="document.getElementById('sample1').value ='Cars'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Cars</li>
+                  <li onclick="document.getElementById('sample1').value ='Pedestrians'; document.getElementById('selCatLabel').innerHTML =''" class="mdl-menu__item">Pedestrians</li>
+                </ul>
+              </div>
+            </form>&nbsp
+            <div class="mdl-cell pub-checkbox">
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
+                <input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
+                <span class="mdl-radio__label">Published</span>
+              </label>&nbsp
+              <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
+                <input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
+                <span class="mdl-radio__label">Unpublished</span>
+              </label>
+            </div>
+            </div>
+            <div class="mdl-cell mdl-cell--12-col">
+              <table id="content-table" class="mdl-data-table mdl-js-data-table mdl-shadow--2dp ">
+                <thead>
+                  <tr>
+                    <th class="mdl-data-table__cell--non-numeric">Play</th>
+                    <th class="date-icon-table-heading">Name
+                    </th>
+                    <th class="mdl-cell--hide-phone">Uploader</th>
+                    <th class="mdl-cell--hide-phone mdl-cell--hide-tablet">Upload date</th>
+                    <th class="mdl-cell--hide-phone">Size</th>
+                    <th>Price</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--icon">
+                        <i class="material-icons mdl-icon-toggle">play_circle_filled</i></button>
+                    </td>
+                    <td>Super cool video</td>
+                    <td class="mdl-cell--hide-phone">Maria Mary</td>
+                    <td class="mdl-cell--hide-phone mdl-cell--hide-tablet">9/04/2017 7:00am</td>
+                    <td class="mdl-cell--hide-phone">1 GB</td>
+                    <td>$50</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--icon">
+                        <i class="material-icons mdl-icon-toggle">play_circle_filled</i></button>
+                    </td>
+                    <td>Super cool video</td>
+                    <td class="mdl-cell--hide-phone">Peter Gabriel</td>
+                    <td class="mdl-cell--hide-phone mdl-cell--hide-tablet">9/04/2017 7:00am</td>
+                    <td class="mdl-cell--hide-phone">2 GB</td>
+                    <td>$1050</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--icon">
+                        <i class="material-icons mdl-icon-toggle">play_circle_filled</i></button>
+                    </td>
+                    <td>Super cool video</td>
+                    <td class="mdl-cell--hide-phone">James Hetfield</td>
+                    <td class="mdl-cell--hide-phone mdl-cell--hide-tablet">9/04/2017 7:00am</td>
+                    <td class="mdl-cell--hide-phone">3 GB</td>
+                    <td>$120</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--icon">
+                        <i class="material-icons mdl-icon-toggle">play_circle_filled</i></button>
+                    </td>
+                    <td>Super cool video</td>
+                    <td class="mdl-cell--hide-phone">Maria Mary</td>
+                    <td class="mdl-cell--hide-phone mdl-cell--hide-tablet">9/04/2017 7:00am</td>
+                    <td class="mdl-cell--hide-phone">1 GB</td>
+                    <td>$50</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--icon">
+                        <i class="material-icons mdl-icon-toggle">play_circle_filled</i></button>
+                    </td>
+                    <td>Super cool video</td>
+                    <td class="mdl-cell--hide-phone">Peter Gabriel</td>
+                    <td class="mdl-cell--hide-phone mdl-cell--hide-tablet">9/04/2017 7:00am</td>
+                    <td class="mdl-cell--hide-phone">1.25 GB</td>
+                    <td>$1050</td>
+                  </tr>
+                  <tr>
+                    <td class="mdl-data-table__cell--non-numeric">
+                      <button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--colored mdl-button--icon">
+                        <i class="material-icons mdl-icon-toggle">play_circle_filled</i></button>
+                    </td>
+                    <td>Super cool video</td>
+                    <td class="mdl-cell--hide-phone">James Hetfield</td>
+                    <td class="mdl-cell--hide-phone mdl-cell--hide-tablet">9/04/2017 7:00am</td>
+                    <td class="mdl-cell--hide-phone">3.2 GB</td>
+                    <td>$120</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="mdl-tabs__panel" id="lannisters-panel">
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
